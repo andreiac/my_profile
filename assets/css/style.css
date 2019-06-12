@@ -172,7 +172,7 @@ footer {
 }
 form{
   margin: 0 auto;
-  width: 800px;
+  width: auto;
   padding: 0px 8px 20px 8px;
 }
 input {
