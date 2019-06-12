@@ -1,0 +1,227 @@
+/**
+ * Float Layout Activity
+ **/
+
+ * { box-sizing: border-box; margin: 0; padding: 0; }
+
+ * {
+  box-sizing: border-box;
+  text-align: center;
+}
+.background {
+  background-image: url(../images/lilypads.png)
+}
+
+p{
+  text-align: justify;
+  text-indent: 5px;
+  font-size: 15px;
+  color: gray;
+}
+section {
+
+  text-align: center;
+}
+
+a{
+  color: gray;
+  text-decoration: none;
+}
+
+
+#leftbutton {
+  color: grey;
+  width: 12%;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+#middlebutton {
+  color: grey;
+  width: 12%;
+  margin-top: 20px;
+  font-size: 18px;
+  border-right: lightgrey 1px solid;
+  border-left: lightgrey 1px solid;
+}
+hr{
+  margin: 25px 20px 25px 20px;
+}
+
+#rightbutton {
+  color: grey;
+  width: 12%;  
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+#andreia{
+  background-color: #4AAAA5;
+  float: left;
+  color: white;
+  font-size: 40px;
+  padding: 6px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 1px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#headerleft {
+  margin-bottom: 20px;
+  width: 20%;
+  padding-top: 20px;
+  float: left;
+  background-color: white;
+  height: 59px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: lightgray;
+}
+
+#headermiddle {
+  margin-bottom: 20px;
+  color: grey;
+  background: white;
+  width: 60%;
+  float: left;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: lightgray;
+}
+
+#headerright {
+  margin-bottom: 20px;
+  float: left;  
+  width: 20%;
+  padding-top: 20px;
+  background-color: white;
+  height: 59px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: lightgray;
+}
+#leftsidebar{
+  margin-bottom: 20px;
+  width: 20%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  float: left;
+}
+#rightsidebar{
+  margin-bottom: 20px;
+  float: right;  
+  width: 20%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#full {
+  display: inline-block;
+  background-color: white;
+  margin: 20px 0px 20px;
+  padding: 20px;
+  padding-bottom: 60px;
+  width: 60%;
+  height: auto;
+  border-color: lightgray;
+  border-width: 1px;
+  border-style: solid;
+}
+#aboutme{
+  color: #4AAAA5;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  float: left;
+  font-size: 25px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.clear-floats { clear: both; }
+
+img {
+  background-color: white;
+  float: left;
+  margin: 5px 20px 10px 0px;
+  width: 200px;
+  height: 200px;
+  border-color: lightgray;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.img{
+    display: block;
+    background-color: white;
+    margin: 30px 20px 30px 0px;
+    width: 250px;
+    height: 200px;
+    border: none;
+    padding-bottom: 30px;
+  }
+
+footer {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #b1bec7;
+  background-color: #666666; 
+  margin-top: 45px;
+  border-top-color: #4AAAA5;
+  border-top-width: 5px;
+  border-top-style: solid;
+  width: 100%;
+}
+form{
+  margin: 0 auto;
+  width: 800px;
+  padding: 0px 8px 20px 8px;
+}
+input {
+  display: block;
+  width: 100%;
+  text-align: left;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: gray;
+  font-size: 14px;
+  padding: 5px 5px 5px 5px;
+  margin: 5px 5px 5px 0px;
+}
+textarea {
+  display: block;
+  width: 100%;
+  min-height: 200px;
+  text-align: left;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: gray;
+  font-size: 14px;
+  padding: 5px 5px 5px 5px;
+  margin: 5px 5px 5px 0px;
+  border-color: lightgray;
+}
+#submitbutton{
+  width: 20%;
+  float: left;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  background-color: #4AAAA5;
+  font-size: 14px;
+  padding: 5px 5px 5px 5px;
+  margin: 5px 5px 5px 5px;
+}
+portfolioimage {
+  background-color: white;
+  float: left;
+  margin-left: 30px;
+  width: 250px;
+  height: 200px;
+}
+#division {
+  display: block;
+  background-color: #4AAAA5;
+  height: 40px;
+  padding-top: 10px;
+  width: 250px;
+  color: aliceblue;
+  position: absolute;
+  margin-top: 150px;
+}
